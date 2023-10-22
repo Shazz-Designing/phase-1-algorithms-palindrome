@@ -16,7 +16,9 @@ Pseudocode:
 */
 
 /*
-  Add written explanation of your solution here
+ - We clean the word by removing spaces and converting it to lowercase to make the comparison case-insensitive and ignore spaces.
+ - Then, we compare the cleaned word with its reverse using the split, reverse, and join methods.
+ - If they match, we return true (it's a palindrome), otherwise, we return false (not a palindrome).
 */
 
 // You can run `node index.js` to view these console logs

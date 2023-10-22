@@ -1,11 +1,18 @@
 function isPalindrome(word) {
   const cleanedWord = word.replace(/ /g, '').toLowerCase();
-  
+
   return cleanedWord === cleanedWord.split('').reverse().join('');
 }
 
 /* 
-  Add your pseudocode here
+Pseudocode:
+
+1. Remove spaces from the input word.
+2. Convert the input word to lowercase.
+3. Check if the cleaned word is equal to its reverse.
+4. If they are equal, return true (it's a palindrome).
+5. If they are not equal, return false (it's not a palindrome).
+
 */
 
 /*
